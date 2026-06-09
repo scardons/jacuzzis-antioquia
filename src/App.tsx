@@ -26,19 +26,6 @@ function App() {
       <section id="modelos" className="section modelos scroll-mt-64">
         <h2 className="section-title">Nuestros Productos</h2>
         <p className="section-subtitle">GENERAMOS EXPERIENCIAS A TRAVÉS DEL AGUA</p>
-        <p className="section-cta">¡Cotiza el tuyo!</p>
-
-        <div className="category-pills">
-          {categories.map((cat) => (
-            <button
-              key={cat}
-              onClick={() => setSelectedCategory(selectedCategory === cat ? null : cat)}
-              className={`pill ${selectedCategory === cat ? 'active' : ''}`}
-            >
-              {cat} Personas
-            </button>
-          ))}
-        </div>
 
         <div className="grid">
           <div className="card">
