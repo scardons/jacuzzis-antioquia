@@ -1,13 +1,8 @@
-import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Header from './components/Header/Header'
 import './App.css'
 
-const categories = [2, 3, 4, 6, 8, 10, 12]
-
 function App() {
-  const [selectedCategory, setSelectedCategory] = useState<number | null>(null)
-
   return (
     <>
       <Header />
