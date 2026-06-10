@@ -54,7 +54,7 @@ function Header() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.8 }}
             >
-              <a href="#inicio" style={{ fontFamily: "var(--script)" }} className="text-3xl md:text-[2.8rem] font-bold text-[#0077b6] no-underline whitespace-nowrap leading-none">
+              <a href="#inicio" style={{ fontFamily: "'Alex Brush', 'Brush Script MT', cursive", fontWeight: 400 }} className="text-3xl md:text-[2.8rem] text-[#0077b6] no-underline whitespace-nowrap leading-none">
                 Jacuzzi Antioquia
               </a>
             </motion.div>
