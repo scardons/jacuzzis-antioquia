@@ -148,7 +148,7 @@ function App() {
           </div>
           <div>
             <h4>Contacto</h4>
-            <p>santiagocardona97@gmail.com</p>
+            <p>JacuzziAntioquia333@gmail.com</p>
             <p>+57 324 681 1651</p>
           </div>
         </div>
